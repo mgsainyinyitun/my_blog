@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use  App\Http\Controllers\PagesController;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +14,8 @@ use  App\Http\Controllers\PagesController;
 |
 */
 
-Route::get('/',[PagesController::class,'index']);
-
+Route::get('/', [PageController::class,'index']);
 Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
