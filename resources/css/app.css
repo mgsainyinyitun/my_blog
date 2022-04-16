@@ -4,11 +4,17 @@
 
 @import "tailwindcss/utilities";
 
+
 .background-image{
-    background-image: url(https://cdn.pixabay.com/photo/2018/03/10/18/03/laptop-3214756_960_720.png);
+    background-image: url('../../public/images/cover.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 800px;
+    height: 400px;
+    margin-top: -15px;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }

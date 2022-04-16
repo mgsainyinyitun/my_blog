@@ -2,11 +2,11 @@
 @section('content')
 <div class="background-image grid grid-cols-1 m-auto">
     <div class="flex text-gray-100 pt-10">
-        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block"> 
+        <div class="m-auto pt-4 pb-16 sm:m-auto w-3/5 block border border-blue-50 rounded-3xl p-10"> 
             <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">Do you want to become a develover</h1>
             <a
                 href="/blog"
-                class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase"
+                class="text-center bg-gray-800 text-white py-2 px-4 font-bold text-xl uppercase rounded-3xl"
             >
             Read More
             </a>
@@ -14,27 +14,39 @@
     </div>
 </div>
 
-<div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
-    <div> 
-        <img src="https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_960_720.jpg" alt="image" width="700">
+<div class="w-4/5 rounded-3xl m-auto bg-black  mt-20"> 
+    <h1 class="text-white p-3 text-xl">POPULAR BLOGS</h1>
+</div>
+
+<!-- 3 Card Blog --> 
+<div class="sm:grid grid-cols-3 gap-10 w-4/5 mx-auto py-10 border-b border-gray-200">
+
+    <div class="bg-black text-white rounded-3xl drop-shadow-2xl border-gray-50 overflow-hidden"> 
+        <img src="/images/laptop.png" alt="image" class="h-4/6">
+
+        <div class="p-5 mt-5"> 
+            <h3 class="mb-3">Card Title </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni expedita tempora numquam nisi! Corrupti rem cu</p>
+        </div>
     </div>
-    <div class="m-auto sm:m-auto text-left w-4/5 block"> 
-        <h2 class="text-4xl font-extrabold text-gray-600">
-            Struggling to be a better web developer
-        </h2>
-        <p class="py-8 text-gray-500 text-l">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-             Non cum voluptatibus quisquam impedit animi
-        </p>
-        <p class="font-extrabold text-gray-600 text-xl pb-9">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae facere, repudiandae reiciendis blanditiis, nam enim quae dolores at eveniet nulla magnam delect
-        </p>
-        <a 
-            href="/blog"
-            class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl "
-        >
-            Find Out More
-        </a>
+
+    <div class="border border-red-500"> 
+        <img src="/images/laptop.png" alt="image" class="w-full">
+        
+        <div class="p-5 mt-5"> 
+            <h3>Card Title </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni expedita tempora numquam nisi! Corrupti rem cu</p>
+        </div>
+    
+    </div>
+
+    <div class="bg-black text-white rounded-3xl drop-shadow-2xl border-gray-50 overflow-hidden"> 
+        <img src="/images/laptop.png" alt="image" class="h-4/6">
+
+        <div class="p-5 mt-5"> 
+            <h3 class="mb-3">Card Title </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni expedita tempora numquam nisi! Corrupti rem cu</p>
+        </div>
     </div>
 </div>
 
@@ -57,10 +69,7 @@
 
 
 <div class="text-center py-15">
-    <span class="uppercase text-s text-gray-400">
-        BLOG
-    </span>
-    <h2 class="text-4xl font-bold py-10">Recent Post</h2>
+    <h2 class="text-4xl font-bold py-10">Recent</h2>
     <p class="m-auto w-4/5 text-gray-500">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sit vitae ratione dolore quasi tenetur! Doloremque deserunt ratione, vel magni sapiente possimus unde enim voluptatibus omnis nihil optio accusantium ipsum.
     </p>
